@@ -4,9 +4,9 @@ default: -p pretty -p html -p allure -p features -p producao -p browser -p headl
 
 pretty: --format pretty
 html: --format html --out=report/report.html
-allure: --format AllureCucumber::CucumberFormatter  --out=report/
+allure: --format AllureCucumber::CucumberFormatter --out=report/
 features: --require features './features/specs'
-producao: CONTEXTO=automacao
+producao: CONTEXTO=producao
 local: CONTEXTO=local
 browser: BROWSER=chrome
 headless: HEADLESS=sim
