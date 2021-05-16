@@ -1,7 +1,6 @@
 
 Dado('o usuário acessou o ambiente para calcular a aposentadoria') do
     visit('/#!/calculadora/aposentadoria')
-    # expect(page).to have_current_path('https://alecsandro-imersao-javascript.herokuapp.com/#!/calculadora/aposentadoria')
 end
   
 Quando('digitar {string} no campo valor desejado') do |valor|

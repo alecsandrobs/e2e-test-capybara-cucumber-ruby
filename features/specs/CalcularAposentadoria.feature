@@ -4,7 +4,7 @@
 Funcionalidade: Calcular investimento para aposentadoria privada
   Como usuário eu desejo calcular o valor necessário para investir para uma possível aposentadoria privada.
 
-  # @CalcularAposentadoriaValido
+  @CalcularAposentadoriaValido
   Esquema do Cenário: Calcular aposentadoria válido
     Dado o usuário acessou o ambiente para calcular a aposentadoria
     Quando digitar "<valor>" no campo valor desejado

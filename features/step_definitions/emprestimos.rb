@@ -15,7 +15,6 @@ Given('que existem empréstimos') do |emprestimos|
         pessoa = JSON.parse(pessoas)[0]
         itens = JSON.parse(emprestimo[:itens])
         emp = {tipo: emprestimo[:tipo], dataEmprestimo: emprestimo[:dataEmprestimo], situacao: emprestimo[:situacao], dataDevolucao: emprestimo[:dataDevolucao], pessoa: pessoa, observacoes: emprestimo[:observacoes], itens: itens}
-        # RestClient.post("#{CONFIG['url']}/emprestimos", {tipo: emprestimo[:tipo], dataEmprestimo: emprestimo[:dataEmprestimo], situacao: emprestimo[:situacao], dataDevolucao: emprestimo[:dataDevolucao], pessoa: pessoa, observacoes: emprestimo['observacoes'], itens: itens}.to_json, headers={content_type: :json})
         RestClient.post("#{CONFIG['url']}/emprestimos", emp.to_json, headers={content_type: :json})
     end
 end

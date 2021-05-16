@@ -1,6 +1,5 @@
 Dado('o usuário acessou o ambiente para calcular salário líquido e impostos') do
     visit '/#!/salario/salario'
-    # expect(page).to have_current_path('https://alecsandro-imersao-javascript.herokuapp.com/#!/salario/salario')
 end
 
 Quando('digitar {string} no campo salário bruto') do |salario_bruto|
