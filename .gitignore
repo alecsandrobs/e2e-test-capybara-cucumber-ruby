@@ -1,6 +1,6 @@
-webdrivers/
+.vscode/
+features/support/webdrivers
 report/
-
 # Used by dotenv library to load environment variables.
 # .env
 
