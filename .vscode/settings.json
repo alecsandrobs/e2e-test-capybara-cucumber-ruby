@@ -1,0 +1,15 @@
+{
+  "cucumberautocomplete.steps": ["features/step_definitions/**/*.rb"],
+  "cucumberautocomplete.syncfeatures": "features/specs/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.strictGherkinValidation": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "workbench.iconTheme": "vscode-icons",
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.format": false,
+  "ruby.intellisense": "rubyLocate",
+  "window.zoomLevel": 1,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cucumberautocomplete.customParameters": []
+}

@@ -1,0 +1,13 @@
+---
+
+default: -p pretty -p html -p allure -p features -p producao -p browser -p headless
+
+pretty: --format pretty
+html: --format html --out=report/report.html
+allure: --format AllureCucumber::CucumberFormatter  --out=report/
+features: --require features './features/specs'
+producao: CONTEXTO=automacao
+local: CONTEXTO=local
+browser: BROWSER=chrome
+headless: HEADLESS=sim
+tags: --tags '@wip'
