@@ -32,7 +32,7 @@ cucumber --name="Calcular aposentadoria válido"     # Run scenarios that has th
 ### Generate allure report
 
 ```
-allure serve report/                                # the report will open automatically on a default broser
+allure serve report/                                # open automatically on a default broser
 ```
 
 The cucumber html report will also be generated at `report/report.html`
