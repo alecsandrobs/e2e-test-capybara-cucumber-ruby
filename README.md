@@ -21,7 +21,7 @@ bundle install
 cucumber
 ```
 
-### Running scenarios by tag
+### Running scenarios by tag or scenario name
 
 ```
 cucumber --tags @CalcularSalarioValido              # Run scenarios that has the tag
